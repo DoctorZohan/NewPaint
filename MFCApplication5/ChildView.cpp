@@ -120,13 +120,13 @@ void CChildView::OnLButtonDblClk(UINT nFlags, CPoint point)
 			cirDlg.m_strDlgCaption = _T("Change Circle");
 			cirDlg.posX(circle->posX());
 			cirDlg.posY(circle->posY());
-			cirDlg.radious(circle->radious());
+			cirDlg.radius(circle->radius());
 			int result = cirDlg.DoModal();
 			if (result == IDOK)
 			{
 				theApp.m_canvas->select_object(circle, true);
 				theApp.m_canvas->removeObject(circle);
-				CCircle* rect2 = new CCircle(cirDlg.posX(), cirDlg.posY(), cirDlg.radious(), cirDlg.color());
+				CCircle* rect2 = new CCircle(cirDlg.posX(), cirDlg.posY(), cirDlg.radius(), cirDlg.color());
 				if (!theApp.m_canvas->addObject(rect2))
 				{
 					AfxMessageBox(L"This shape should be inside canvas and do not intersect with other shapes");

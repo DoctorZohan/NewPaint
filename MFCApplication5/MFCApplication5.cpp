@@ -198,7 +198,7 @@ void CPaintApp::OnAddCircle()
 	int result = cirDlg.DoModal();
 	if (result == IDOK)
 	{
-		CCircle* rect = new CCircle(cirDlg.posX(), cirDlg.posY(), cirDlg.radious(), cirDlg.color());
+		CCircle* rect = new CCircle(cirDlg.posX(), cirDlg.posY(), cirDlg.radius(), cirDlg.color());
 		if (!m_canvas->addObject(rect))
 		{
 			delete rect;

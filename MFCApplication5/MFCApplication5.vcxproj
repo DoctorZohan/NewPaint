@@ -224,6 +224,7 @@
     <ResourceCompile Include="MFCApplication5.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="res\MFCApplication5.rc2" />
   </ItemGroup>
   <ItemGroup>

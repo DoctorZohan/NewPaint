@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MFCApplication5.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAddCircleDlg" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAkAAAAAAAAAABAADAAQAAAAACOAAAAEwRgABIA=</HashCode>
+      <FileName>CAddCircleDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAddRectangleDlg" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUAAEAEAAAAAACAAYFAAAAAAQRAAAACAAAAExQAAAAA=</HashCode>
+      <FileName>CAddRectangleDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAddTriangleDlg" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAEAAAAwAMAAOBAYAgAAAwAAAACAAQCEIQgAAgA=</HashCode>
+      <FileName>CAddTriangleDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellElement">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAABA=</HashCode>
+      <FileName>Canvas.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Canvas">
+    <Position X="11" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAEAACIAEDAAAAAAAAYlgCIAQAAEACAhCAAAgABIAAA=</HashCode>
+      <FileName>Canvas.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCanvasDlg" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAA+AgBAAAAAAABABACAAAEAAAQAAGACEAwAAAAA=</HashCode>
+      <FileName>CCanvasDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCircle">
+    <Position X="5.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAgAAAAAAAAAAAAAAAAQAAAAICAAABAUwBAAAAA=</HashCode>
+      <FileName>CCircle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CChildView" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAEAAAAAAAAAAAhMgAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>ChildView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CTriangle">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <InheritanceLine Type="Shape" FixedToPoint="true">
+      <Path>
+        <Point X="5.25" Y="0.5" />
+        <Point X="5.25" Y="0.125" />
+        <Point X="1.25" Y="0.125" />
+        <Point X="1.25" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAAAAOAAACAAAQwAAACSAARAQAAAQAAA=</HashCode>
+      <FileName>CTriangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAACAQAiAAEgCAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPaintApp" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgBAAAAAAAAAEAAAJAAAIAAQAAAABIDAAABA=</HashCode>
+      <FileName>MFCApplication5.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRectangle">
+    <Position X="3" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAQEAAAAQQAAgAACCAABAAwAAAAAA=</HashCode>
+      <FileName>CRectangle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CQAEAAAAAAAAIAAQAAAgAAADQAAAACCgABAAAAgAAAA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="shape_type">
+    <Position X="7.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACSAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shape.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

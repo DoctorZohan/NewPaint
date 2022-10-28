@@ -28,17 +28,17 @@ public:
 	afx_msg void OnBnClickedOk();
 	int posX() const { return m_posX; }
 	int posY() const { return m_posY; }
-	int radious() const { return m_radious; }
+	int radius() const { return m_radius; }
 	int color() const { return m_color; }
 	void posX(int posX) { m_posX = posX; }
 	void posY(int posY) { m_posY = posY; }
-	void radious(int radious) { m_radious = radious; }
+	void radius(int radius) { m_radius = radius; }
 	void color(int color) { m_color = color; }
 	CString m_strDlgCaption;
 private:
 	int m_posX;
 	int m_posY;
-	int m_radious;
+	int m_radius;
 	int m_color;
 public:
 	afx_msg void OnBnClickedCirColor();

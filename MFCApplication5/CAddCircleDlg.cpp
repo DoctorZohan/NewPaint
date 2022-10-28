@@ -45,7 +45,7 @@ void CAddCircleDlg::OnBnClickedOk()
 {
 	m_posX = get_int_from_cedit(CirX);
 	m_posY = get_int_from_cedit(CirY);
-	m_radious = get_int_from_cedit(CirRad);
+	m_radius = get_int_from_cedit(CirRad);
 	CDialogEx::OnOK();
 }
 
@@ -67,7 +67,7 @@ BOOL CAddCircleDlg::OnInitDialog()
 	CirColor.SetFaceColor(m_color, 1);
 	CirX.SetWindowText(get_CString(m_posX));
 	CirY.SetWindowText(get_CString(m_posY));
-	CirRad.SetWindowText(get_CString(m_radious));
+	CirRad.SetWindowText(get_CString(m_radius));
 	SetWindowText(m_strDlgCaption);
 	// TODO:  Add extra initialization here
 
